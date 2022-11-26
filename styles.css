@@ -1,0 +1,68 @@
+body {
+	font-family:Helvetica;
+	background:grey;
+	border-style:solid;
+}
+
+.header{
+	padding:8px;
+	text-align:center;
+	background:orange;
+	border-bottom:solid;
+}
+
+h1{
+	font-size:32px;	
+}
+
+a{
+	color:white;
+	text-align:center;
+	padding:2px 15px;
+	border-style:solid;
+	text-decoration:none;
+}
+
+.nav a:hover{
+	color:yellow;
+}
+
+.main{
+	display:flex;
+	flex-wrap:wrap;
+	flex: 100%;
+	padding:20px;
+	background-color:orange;
+	border-bottom:solid;
+}
+
+.home{
+	color:white;
+	padding:20px;
+	border-style:solid;
+	background:LightGray;
+
+}
+
+.about{
+	border-style:dotted;
+	padding:20px;
+	text-decoration:none;
+}
+
+.footer{
+	padding:0.025px;
+	background:darkOrange;
+	font-size:12px;
+}
+
+p{
+	float:right;
+}
+
+h3{
+	text-decoration:underline;
+}
+.special{
+	border-style:none;
+}
