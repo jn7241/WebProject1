@@ -1,5 +1,5 @@
 body {
-	font-family:Helvetica;
+	font-family:Consolas;
 	background:grey;
 	border-style:solid;
 	
@@ -14,8 +14,10 @@ body {
 }
 
 h1{
-	font-size:32px;	
+	font-size:4.5vw;	
 }
+
+
 
 a{
 	color:white;
@@ -25,7 +27,9 @@ a{
 
 .nav{
 	border-style:solid;
-	border-color:white;
+	border-color:black;
+	background-color:#8C9A9E;
+	border-radius:20px;
 	vertical-align:middle !important;
 	padding:0.5vw;
 }
@@ -34,7 +38,7 @@ a{
 	display:flex;
 	justify-content:center;
 	overflow:auto;
-	font-size:2.5vw;
+	font-size:3vw;
 	font-family:Monospace;
 	
 }
@@ -43,9 +47,8 @@ a{
 }
 
 .main{
-	display:flex;
-	flex-wrap:wrap;
-	flex: 100%;
+	display:block;
+	margin:auto;
 	padding:20px;
 	background-color:orange;
 	border-bottom:solid;
@@ -72,23 +75,25 @@ a{
 	padding:0.025px;
 	background:darkOrange;
 	font-size:12px;
+	display:flex;
 }
 
 p{
-	float:left;
-	margin-right:0.3em;
+	margin-right:0.8em;
 }
 
 h3{
 	text-decoration:underline;
 }
 .special{
-	border-style:none;
-	text-align:right;
+	vertical-align:bottom !important;
 }
+
 td {
-	vertical-align:top;
+	vertical-align:top;	
+	
 }
+
 img{
 	margin-right:10px;
 	max-width:100%;
@@ -96,4 +101,21 @@ img{
 }
 table{
 	border:none;
+}
+
+button{
+  background-color: #8C9A9E;
+  border-color:black;
+  color: white;
+  border-radius:20px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover{
+	background-color: #8C9A9E;
+	color:yellow;
 }
