@@ -1,5 +1,8 @@
 # WebProject1
 
+-----------
+WORK REPORT
+-----------
 BASIC CONTEXT
 - This project is a basic website made with HTML/JavaScript.
 - Project was done alone
