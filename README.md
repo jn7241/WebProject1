@@ -55,7 +55,7 @@ mutually exclusive
 - labels have simple one or two word descriptions. For example,
 titles label the mutually exclusive content in the pages in a row by row basis.
 (row 1: page content 1, row 2: page content 2, and so on...)
-- Footer clearly shows author, and has a top function, foer going up a page
+- Footer clearly shows author, and has a top function, for going up a page
 - Browser window page titles are unique and correlated with the content of the
 page
 - Headings are used liberally
